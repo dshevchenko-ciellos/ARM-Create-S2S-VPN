@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vpnType": {
+      "value": "RouteBased"
+    },
+    "localGatewayName": {
+      "value": "S2S-LNG-CompanyName-01"
+    },
+    "localGatewayIpAddress": {
+      "value": "0.0.0.0"
+    },
+    "localAddressPrefix": {
+      "value": "0.0.0.0/24"
+    },
+    "virtualNetworkName": {
+      "value": "S2S-VNT-CompanyName-01"
+    },
+    "azureVNetAddressPrefix": {
+      "value": "10.10.0.0/16"
+    },
+    "subnetName": {
+      "value": "DefaultSubnet01"
+    },
+    "subnetPrefix": {
+      "value": "10.10.2.0/24"
+    },
+    "gatewaySubnetPrefix": {
+      "value": "10.10.1.0/29"
+    },
+    "gatewayPublicIPName": {
+      "value": "S2S-PIP-CompanyName-01"
+    },
+    "gatewayName": {
+      "value": "S2S-VNG-CompanyName-01"
+    },
+    "connectionName": {
+      "value": "S2S-CON-CompanyName-01"
+    },
+    "sharedKey": {
+      "value": null
+    }
+  }
+}
